@@ -32,15 +32,8 @@
 ### Install
 
 ```
-sudo apt update
-sudo apt install -y g++ build-essential
-sudo apt install -y python2
-alias python=python2
-
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-. ~/.nvm/nvm.sh
-nvm install 12.22.9
-sudo apt install -y nodejs
+nvm use 12.22.9
+npm install
 ```
 
 ### webpack server 구동
